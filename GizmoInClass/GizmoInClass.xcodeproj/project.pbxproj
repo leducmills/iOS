@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58815201670FFA1006BED55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588151F1670FFA1006BED55 /* UIKit.framework */; };
+		B58815221670FFA1006BED55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58815211670FFA1006BED55 /* Foundation.framework */; };
+		B58815241670FFA1006BED55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58815231670FFA1006BED55 /* CoreGraphics.framework */; };
+		B588152A1670FFA1006BED55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B58815281670FFA1006BED55 /* InfoPlist.strings */; };
+		B588152C1670FFA1006BED55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B588152B1670FFA1006BED55 /* main.m */; };
+		B58815301670FFA1006BED55 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B588152F1670FFA1006BED55 /* MADAppDelegate.m */; };
+		B58815331670FFA1006BED55 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58815321670FFA1006BED55 /* MADViewController.m */; };
+		B58815361670FFA1006BED55 /* MADViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58815341670FFA1006BED55 /* MADViewController_iPhone.xib */; };
+		B58815391670FFA1006BED55 /* MADViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58815371670FFA1006BED55 /* MADViewController_iPad.xib */; };
+		B58815401671010F006BED55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588153F1671010F006BED55 /* SenTestingKit.framework */; };
+		B588154216710760006BED55 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588154116710760006BED55 /* CoreMotion.framework */; };
+		B5881546167109A3006BED55 /* neonBop.png in Resources */ = {isa = PBXBuildFile; fileRef = B5881543167109A3006BED55 /* neonBop.png */; };
+		B5881547167109A3006BED55 /* swirl.png in Resources */ = {isa = PBXBuildFile; fileRef = B5881544167109A3006BED55 /* swirl.png */; };
+		B5881548167109A3006BED55 /* alienGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = B5881545167109A3006BED55 /* alienGlow.png */; };
+		B588154A167109D6006BED55 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5881549167109D6006BED55 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B588151B1670FFA1006BED55 /* GizmoInClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GizmoInClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B588151F1670FFA1006BED55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B58815211670FFA1006BED55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B58815231670FFA1006BED55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B58815271670FFA1006BED55 /* GizmoInClass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizmoInClass-Info.plist"; sourceTree = "<group>"; };
+		B58815291670FFA1006BED55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B588152B1670FFA1006BED55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B588152D1670FFA1006BED55 /* GizmoInClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GizmoInClass-Prefix.pch"; sourceTree = "<group>"; };
+		B588152E1670FFA1006BED55 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		B588152F1670FFA1006BED55 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		B58815311670FFA1006BED55 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		B58815321670FFA1006BED55 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		B58815351670FFA1006BED55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController_iPhone.xib; sourceTree = "<group>"; };
+		B58815381670FFA1006BED55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController_iPad.xib; sourceTree = "<group>"; };
+		B588153F1671010F006BED55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B588154116710760006BED55 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B5881543167109A3006BED55 /* neonBop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neonBop.png; sourceTree = "<group>"; };
+		B5881544167109A3006BED55 /* swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swirl.png; sourceTree = "<group>"; };
+		B5881545167109A3006BED55 /* alienGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alienGlow.png; sourceTree = "<group>"; };
+		B5881549167109D6006BED55 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58815181670FFA1006BED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B588154216710760006BED55 /* CoreMotion.framework in Frameworks */,
+				B58815401671010F006BED55 /* SenTestingKit.framework in Frameworks */,
+				B58815201670FFA1006BED55 /* UIKit.framework in Frameworks */,
+				B58815221670FFA1006BED55 /* Foundation.framework in Frameworks */,
+				B58815241670FFA1006BED55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58815101670FFA1006BED55 = {
+			isa = PBXGroup;
+			children = (
+				B588154116710760006BED55 /* CoreMotion.framework */,
+				B588153F1671010F006BED55 /* SenTestingKit.framework */,
+				B58815251670FFA1006BED55 /* GizmoInClass */,
+				B588151E1670FFA1006BED55 /* Frameworks */,
+				B588151C1670FFA1006BED55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B588151C1670FFA1006BED55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B588151B1670FFA1006BED55 /* GizmoInClass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B588151E1670FFA1006BED55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B588151F1670FFA1006BED55 /* UIKit.framework */,
+				B58815211670FFA1006BED55 /* Foundation.framework */,
+				B58815231670FFA1006BED55 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58815251670FFA1006BED55 /* GizmoInClass */ = {
+			isa = PBXGroup;
+			children = (
+				B588152E1670FFA1006BED55 /* MADAppDelegate.h */,
+				B588152F1670FFA1006BED55 /* MADAppDelegate.m */,
+				B58815311670FFA1006BED55 /* MADViewController.h */,
+				B58815321670FFA1006BED55 /* MADViewController.m */,
+				B58815341670FFA1006BED55 /* MADViewController_iPhone.xib */,
+				B58815371670FFA1006BED55 /* MADViewController_iPad.xib */,
+				B58815261670FFA1006BED55 /* Supporting Files */,
+			);
+			path = GizmoInClass;
+			sourceTree = "<group>";
+		};
+		B58815261670FFA1006BED55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5881549167109D6006BED55 /* Default.png */,
+				B5881543167109A3006BED55 /* neonBop.png */,
+				B5881544167109A3006BED55 /* swirl.png */,
+				B5881545167109A3006BED55 /* alienGlow.png */,
+				B58815271670FFA1006BED55 /* GizmoInClass-Info.plist */,
+				B58815281670FFA1006BED55 /* InfoPlist.strings */,
+				B588152B1670FFA1006BED55 /* main.m */,
+				B588152D1670FFA1006BED55 /* GizmoInClass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B588151A1670FFA1006BED55 /* GizmoInClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B588153C1670FFA1006BED55 /* Build configuration list for PBXNativeTarget "GizmoInClass" */;
+			buildPhases = (
+				B58815171670FFA1006BED55 /* Sources */,
+				B58815181670FFA1006BED55 /* Frameworks */,
+				B58815191670FFA1006BED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizmoInClass;
+			productName = GizmoInClass;
+			productReference = B588151B1670FFA1006BED55 /* GizmoInClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58815121670FFA1006BED55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Leduc-Mills";
+			};
+			buildConfigurationList = B58815151670FFA1006BED55 /* Build configuration list for PBXProject "GizmoInClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B58815101670FFA1006BED55;
+			productRefGroup = B588151C1670FFA1006BED55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B588151A1670FFA1006BED55 /* GizmoInClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58815191670FFA1006BED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B588152A1670FFA1006BED55 /* InfoPlist.strings in Resources */,
+				B58815361670FFA1006BED55 /* MADViewController_iPhone.xib in Resources */,
+				B58815391670FFA1006BED55 /* MADViewController_iPad.xib in Resources */,
+				B5881546167109A3006BED55 /* neonBop.png in Resources */,
+				B5881547167109A3006BED55 /* swirl.png in Resources */,
+				B5881548167109A3006BED55 /* alienGlow.png in Resources */,
+				B588154A167109D6006BED55 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58815171670FFA1006BED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B588152C1670FFA1006BED55 /* main.m in Sources */,
+				B58815301670FFA1006BED55 /* MADAppDelegate.m in Sources */,
+				B58815331670FFA1006BED55 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B58815281670FFA1006BED55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58815291670FFA1006BED55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B58815341670FFA1006BED55 /* MADViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58815351670FFA1006BED55 /* en */,
+			);
+			name = MADViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B58815371670FFA1006BED55 /* MADViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58815381670FFA1006BED55 /* en */,
+			);
+			name = MADViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B588153A1670FFA1006BED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B588153B1670FFA1006BED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B588153D1670FFA1006BED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizmoInClass/GizmoInClass-Prefix.pch";
+				INFOPLIST_FILE = "GizmoInClass/GizmoInClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B588153E1670FFA1006BED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizmoInClass/GizmoInClass-Prefix.pch";
+				INFOPLIST_FILE = "GizmoInClass/GizmoInClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58815151670FFA1006BED55 /* Build configuration list for PBXProject "GizmoInClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B588153A1670FFA1006BED55 /* Debug */,
+				B588153B1670FFA1006BED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B588153C1670FFA1006BED55 /* Build configuration list for PBXNativeTarget "GizmoInClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B588153D1670FFA1006BED55 /* Debug */,
+				B588153E1670FFA1006BED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58815121670FFA1006BED55 /* Project object */;
+}

@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F4842315F664240055DBDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F4842215F664240055DBDE /* UIKit.framework */; };
+		B5F4842515F664240055DBDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F4842415F664240055DBDE /* Foundation.framework */; };
+		B5F4842715F664240055DBDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F4842615F664240055DBDE /* CoreGraphics.framework */; };
+		B5F4842D15F664240055DBDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5F4842B15F664240055DBDE /* InfoPlist.strings */; };
+		B5F4842F15F664240055DBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4842E15F664240055DBDE /* main.m */; };
+		B5F4843315F664240055DBDE /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4843215F664240055DBDE /* MADAppDelegate.m */; };
+		B5F4843615F664240055DBDE /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4843515F664240055DBDE /* MADViewController.m */; };
+		B5F4843915F664240055DBDE /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F4843715F664240055DBDE /* MADViewController.xib */; };
+		B5F4844015F664C80055DBDE /* atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F4843F15F664C80055DBDE /* atlas.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5F4841E15F664240055DBDE /* HelloName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F4842215F664240055DBDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5F4842415F664240055DBDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5F4842615F664240055DBDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5F4842A15F664240055DBDE /* HelloName-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloName-Info.plist"; sourceTree = "<group>"; };
+		B5F4842C15F664240055DBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5F4842E15F664240055DBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F4843015F664240055DBDE /* HelloName-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloName-Prefix.pch"; sourceTree = "<group>"; };
+		B5F4843115F664240055DBDE /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		B5F4843215F664240055DBDE /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		B5F4843415F664240055DBDE /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		B5F4843515F664240055DBDE /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		B5F4843815F664240055DBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		B5F4843F15F664C80055DBDE /* atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atlas.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F4841B15F664240055DBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F4842315F664240055DBDE /* UIKit.framework in Frameworks */,
+				B5F4842515F664240055DBDE /* Foundation.framework in Frameworks */,
+				B5F4842715F664240055DBDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F4841315F664240055DBDE = {
+			isa = PBXGroup;
+			children = (
+				B5F4842815F664240055DBDE /* HelloName */,
+				B5F4842115F664240055DBDE /* Frameworks */,
+				B5F4841F15F664240055DBDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F4841F15F664240055DBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4841E15F664240055DBDE /* HelloName.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F4842115F664240055DBDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4842215F664240055DBDE /* UIKit.framework */,
+				B5F4842415F664240055DBDE /* Foundation.framework */,
+				B5F4842615F664240055DBDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F4842815F664240055DBDE /* HelloName */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4843115F664240055DBDE /* MADAppDelegate.h */,
+				B5F4843215F664240055DBDE /* MADAppDelegate.m */,
+				B5F4843415F664240055DBDE /* MADViewController.h */,
+				B5F4843515F664240055DBDE /* MADViewController.m */,
+				B5F4843715F664240055DBDE /* MADViewController.xib */,
+				B5F4842915F664240055DBDE /* Supporting Files */,
+			);
+			path = HelloName;
+			sourceTree = "<group>";
+		};
+		B5F4842915F664240055DBDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4843F15F664C80055DBDE /* atlas.png */,
+				B5F4842A15F664240055DBDE /* HelloName-Info.plist */,
+				B5F4842B15F664240055DBDE /* InfoPlist.strings */,
+				B5F4842E15F664240055DBDE /* main.m */,
+				B5F4843015F664240055DBDE /* HelloName-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F4841D15F664240055DBDE /* HelloName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F4843C15F664240055DBDE /* Build configuration list for PBXNativeTarget "HelloName" */;
+			buildPhases = (
+				B5F4841A15F664240055DBDE /* Sources */,
+				B5F4841B15F664240055DBDE /* Frameworks */,
+				B5F4841C15F664240055DBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloName;
+			productName = HelloName;
+			productReference = B5F4841E15F664240055DBDE /* HelloName.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F4841515F664240055DBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Leduc-Mills";
+			};
+			buildConfigurationList = B5F4841815F664240055DBDE /* Build configuration list for PBXProject "HelloName" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5F4841315F664240055DBDE;
+			productRefGroup = B5F4841F15F664240055DBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F4841D15F664240055DBDE /* HelloName */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F4841C15F664240055DBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F4842D15F664240055DBDE /* InfoPlist.strings in Resources */,
+				B5F4843915F664240055DBDE /* MADViewController.xib in Resources */,
+				B5F4844015F664C80055DBDE /* atlas.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F4841A15F664240055DBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F4842F15F664240055DBDE /* main.m in Sources */,
+				B5F4843315F664240055DBDE /* MADAppDelegate.m in Sources */,
+				B5F4843615F664240055DBDE /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F4842B15F664240055DBDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F4842C15F664240055DBDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5F4843715F664240055DBDE /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F4843815F664240055DBDE /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F4843A15F664240055DBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B5F4843B15F664240055DBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F4843D15F664240055DBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloName/HelloName-Prefix.pch";
+				INFOPLIST_FILE = "HelloName/HelloName-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5F4843E15F664240055DBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloName/HelloName-Prefix.pch";
+				INFOPLIST_FILE = "HelloName/HelloName-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F4841815F664240055DBDE /* Build configuration list for PBXProject "HelloName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F4843A15F664240055DBDE /* Debug */,
+				B5F4843B15F664240055DBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F4843C15F664240055DBDE /* Build configuration list for PBXNativeTarget "HelloName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F4843D15F664240055DBDE /* Debug */,
+				B5F4843E15F664240055DBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F4841515F664240055DBDE /* Project object */;
+}

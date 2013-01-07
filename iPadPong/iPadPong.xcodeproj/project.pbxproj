@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B513F16E1616905800EB384A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B513F16D1616905800EB384A /* UIKit.framework */; };
+		B513F1701616905800EB384A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B513F16F1616905800EB384A /* Foundation.framework */; };
+		B513F1721616905800EB384A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B513F1711616905800EB384A /* CoreGraphics.framework */; };
+		B513F1781616905800EB384A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B513F1761616905800EB384A /* InfoPlist.strings */; };
+		B513F17A1616905800EB384A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B513F1791616905800EB384A /* main.m */; };
+		B513F17E1616905900EB384A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B513F17D1616905900EB384A /* MADAppDelegate.m */; };
+		B513F1811616905900EB384A /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B513F1801616905900EB384A /* MADViewController.m */; };
+		B513F1841616905900EB384A /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B513F1821616905900EB384A /* MADViewController.xib */; };
+		B513F18B1616906C00EB384A /* iPadPongLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B513F18A1616906C00EB384A /* iPadPongLogo.png */; };
+		B513F18D1616906F00EB384A /* iPadPongLogosm.png in Resources */ = {isa = PBXBuildFile; fileRef = B513F18C1616906F00EB384A /* iPadPongLogosm.png */; };
+		B513F18F1616910D00EB384A /* iPadPongBG.png in Resources */ = {isa = PBXBuildFile; fileRef = B513F18E1616910D00EB384A /* iPadPongBG.png */; };
+		B513F1911616911C00EB384A /* iPadPongPaddle.png in Resources */ = {isa = PBXBuildFile; fileRef = B513F1901616911C00EB384A /* iPadPongPaddle.png */; };
+		B513F1931616912700EB384A /* pongBall.png in Resources */ = {isa = PBXBuildFile; fileRef = B513F1921616912700EB384A /* pongBall.png */; };
+		B55B02E6161B3FCE00D70CFA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55B02E5161B3FCE00D70CFA /* AudioToolbox.framework */; };
+		B55B02E9161B409F00D70CFA /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = B55B02E8161B409F00D70CFA /* crunch.wav */; };
+		B55B02EB161B40AC00D70CFA /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = B55B02EA161B40AC00D70CFA /* win.wav */; };
+		B55B02ED161B448300D70CFA /* boing2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B55B02EC161B448300D70CFA /* boing2.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B513F1691616905800EB384A /* iPadPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B513F16D1616905800EB384A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B513F16F1616905800EB384A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B513F1711616905800EB384A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B513F1751616905800EB384A /* iPadPong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPadPong-Info.plist"; sourceTree = "<group>"; };
+		B513F1771616905800EB384A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B513F1791616905800EB384A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B513F17B1616905800EB384A /* iPadPong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPadPong-Prefix.pch"; sourceTree = "<group>"; };
+		B513F17C1616905800EB384A /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		B513F17D1616905900EB384A /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		B513F17F1616905900EB384A /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		B513F1801616905900EB384A /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		B513F1831616905900EB384A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		B513F18A1616906C00EB384A /* iPadPongLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPongLogo.png; sourceTree = "<group>"; };
+		B513F18C1616906F00EB384A /* iPadPongLogosm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPongLogosm.png; sourceTree = "<group>"; };
+		B513F18E1616910D00EB384A /* iPadPongBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPongBG.png; sourceTree = "<group>"; };
+		B513F1901616911C00EB384A /* iPadPongPaddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPongPaddle.png; sourceTree = "<group>"; };
+		B513F1921616912700EB384A /* pongBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pongBall.png; sourceTree = "<group>"; };
+		B55B02E5161B3FCE00D70CFA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B55B02E8161B409F00D70CFA /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		B55B02EA161B40AC00D70CFA /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		B55B02EC161B448300D70CFA /* boing2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boing2.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B513F1661616905800EB384A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55B02E6161B3FCE00D70CFA /* AudioToolbox.framework in Frameworks */,
+				B513F16E1616905800EB384A /* UIKit.framework in Frameworks */,
+				B513F1701616905800EB384A /* Foundation.framework in Frameworks */,
+				B513F1721616905800EB384A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B513F15E1616905800EB384A = {
+			isa = PBXGroup;
+			children = (
+				B513F18C1616906F00EB384A /* iPadPongLogosm.png */,
+				B513F18A1616906C00EB384A /* iPadPongLogo.png */,
+				B513F1731616905800EB384A /* iPadPong */,
+				B513F16C1616905800EB384A /* Frameworks */,
+				B513F16A1616905800EB384A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B513F16A1616905800EB384A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B513F1691616905800EB384A /* iPadPong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B513F16C1616905800EB384A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55B02E5161B3FCE00D70CFA /* AudioToolbox.framework */,
+				B513F16D1616905800EB384A /* UIKit.framework */,
+				B513F16F1616905800EB384A /* Foundation.framework */,
+				B513F1711616905800EB384A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B513F1731616905800EB384A /* iPadPong */ = {
+			isa = PBXGroup;
+			children = (
+				B513F17C1616905800EB384A /* MADAppDelegate.h */,
+				B513F17D1616905900EB384A /* MADAppDelegate.m */,
+				B513F17F1616905900EB384A /* MADViewController.h */,
+				B513F1801616905900EB384A /* MADViewController.m */,
+				B513F1821616905900EB384A /* MADViewController.xib */,
+				B513F1741616905800EB384A /* Supporting Files */,
+			);
+			path = iPadPong;
+			sourceTree = "<group>";
+		};
+		B513F1741616905800EB384A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55B02EC161B448300D70CFA /* boing2.wav */,
+				B55B02EA161B40AC00D70CFA /* win.wav */,
+				B55B02E8161B409F00D70CFA /* crunch.wav */,
+				B513F1921616912700EB384A /* pongBall.png */,
+				B513F1901616911C00EB384A /* iPadPongPaddle.png */,
+				B513F18E1616910D00EB384A /* iPadPongBG.png */,
+				B513F1751616905800EB384A /* iPadPong-Info.plist */,
+				B513F1761616905800EB384A /* InfoPlist.strings */,
+				B513F1791616905800EB384A /* main.m */,
+				B513F17B1616905800EB384A /* iPadPong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B513F1681616905800EB384A /* iPadPong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B513F1871616905900EB384A /* Build configuration list for PBXNativeTarget "iPadPong" */;
+			buildPhases = (
+				B513F1651616905800EB384A /* Sources */,
+				B513F1661616905800EB384A /* Frameworks */,
+				B513F1671616905800EB384A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadPong;
+			productName = iPadPong;
+			productReference = B513F1691616905800EB384A /* iPadPong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B513F1601616905800EB384A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Leduc-Mills";
+			};
+			buildConfigurationList = B513F1631616905800EB384A /* Build configuration list for PBXProject "iPadPong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B513F15E1616905800EB384A;
+			productRefGroup = B513F16A1616905800EB384A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B513F1681616905800EB384A /* iPadPong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B513F1671616905800EB384A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B513F1781616905800EB384A /* InfoPlist.strings in Resources */,
+				B513F1841616905900EB384A /* MADViewController.xib in Resources */,
+				B513F18B1616906C00EB384A /* iPadPongLogo.png in Resources */,
+				B513F18D1616906F00EB384A /* iPadPongLogosm.png in Resources */,
+				B513F18F1616910D00EB384A /* iPadPongBG.png in Resources */,
+				B513F1911616911C00EB384A /* iPadPongPaddle.png in Resources */,
+				B513F1931616912700EB384A /* pongBall.png in Resources */,
+				B55B02E9161B409F00D70CFA /* crunch.wav in Resources */,
+				B55B02EB161B40AC00D70CFA /* win.wav in Resources */,
+				B55B02ED161B448300D70CFA /* boing2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B513F1651616905800EB384A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B513F17A1616905800EB384A /* main.m in Sources */,
+				B513F17E1616905900EB384A /* MADAppDelegate.m in Sources */,
+				B513F1811616905900EB384A /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B513F1761616905800EB384A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B513F1771616905800EB384A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B513F1821616905900EB384A /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B513F1831616905900EB384A /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B513F1851616905900EB384A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B513F1861616905900EB384A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B513F1881616905900EB384A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPadPong/iPadPong-Prefix.pch";
+				INFOPLIST_FILE = "iPadPong/iPadPong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B513F1891616905900EB384A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPadPong/iPadPong-Prefix.pch";
+				INFOPLIST_FILE = "iPadPong/iPadPong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B513F1631616905800EB384A /* Build configuration list for PBXProject "iPadPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B513F1851616905900EB384A /* Debug */,
+				B513F1861616905900EB384A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B513F1871616905900EB384A /* Build configuration list for PBXNativeTarget "iPadPong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B513F1881616905900EB384A /* Debug */,
+				B513F1891616905900EB384A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B513F1601616905800EB384A /* Project object */;
+}

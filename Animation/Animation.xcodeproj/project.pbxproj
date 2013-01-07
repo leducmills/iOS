@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5FCED6016555634001D0718 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FCED5F16555634001D0718 /* UIKit.framework */; };
+		B5FCED6216555634001D0718 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FCED6116555634001D0718 /* Foundation.framework */; };
+		B5FCED6416555634001D0718 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FCED6316555634001D0718 /* CoreGraphics.framework */; };
+		B5FCED6A16555634001D0718 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5FCED6816555634001D0718 /* InfoPlist.strings */; };
+		B5FCED6C16555634001D0718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FCED6B16555634001D0718 /* main.m */; };
+		B5FCED7016555634001D0718 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FCED6F16555634001D0718 /* MADAppDelegate.m */; };
+		B5FCED7316555634001D0718 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FCED7216555634001D0718 /* MADViewController.m */; };
+		B5FCED7616555634001D0718 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FCED7416555634001D0718 /* MADViewController.xib */; };
+		B5FCED7D16555660001D0718 /* tennisball.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B5FCED7C16555660001D0718 /* tennisball.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5FCED5B16555634001D0718 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FCED5F16555634001D0718 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5FCED6116555634001D0718 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5FCED6316555634001D0718 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5FCED6716555634001D0718 /* Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animation-Info.plist"; sourceTree = "<group>"; };
+		B5FCED6916555634001D0718 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5FCED6B16555634001D0718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5FCED6D16555634001D0718 /* Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animation-Prefix.pch"; sourceTree = "<group>"; };
+		B5FCED6E16555634001D0718 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		B5FCED6F16555634001D0718 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		B5FCED7116555634001D0718 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		B5FCED7216555634001D0718 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		B5FCED7516555634001D0718 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		B5FCED7C16555660001D0718 /* tennisball.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennisball.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5FCED5816555634001D0718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCED6016555634001D0718 /* UIKit.framework in Frameworks */,
+				B5FCED6216555634001D0718 /* Foundation.framework in Frameworks */,
+				B5FCED6416555634001D0718 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5FCED5016555634001D0718 = {
+			isa = PBXGroup;
+			children = (
+				B5FCED6516555634001D0718 /* Animation */,
+				B5FCED5E16555634001D0718 /* Frameworks */,
+				B5FCED5C16555634001D0718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5FCED5C16555634001D0718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCED5B16555634001D0718 /* Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5FCED5E16555634001D0718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCED5F16555634001D0718 /* UIKit.framework */,
+				B5FCED6116555634001D0718 /* Foundation.framework */,
+				B5FCED6316555634001D0718 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5FCED6516555634001D0718 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCED6E16555634001D0718 /* MADAppDelegate.h */,
+				B5FCED6F16555634001D0718 /* MADAppDelegate.m */,
+				B5FCED7116555634001D0718 /* MADViewController.h */,
+				B5FCED7216555634001D0718 /* MADViewController.m */,
+				B5FCED7416555634001D0718 /* MADViewController.xib */,
+				B5FCED6616555634001D0718 /* Supporting Files */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		B5FCED6616555634001D0718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5FCED7C16555660001D0718 /* tennisball.jpeg */,
+				B5FCED6716555634001D0718 /* Animation-Info.plist */,
+				B5FCED6816555634001D0718 /* InfoPlist.strings */,
+				B5FCED6B16555634001D0718 /* main.m */,
+				B5FCED6D16555634001D0718 /* Animation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FCED5A16555634001D0718 /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FCED7916555634001D0718 /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				B5FCED5716555634001D0718 /* Sources */,
+				B5FCED5816555634001D0718 /* Frameworks */,
+				B5FCED5916555634001D0718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = B5FCED5B16555634001D0718 /* Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5FCED5216555634001D0718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Leduc-Mills";
+			};
+			buildConfigurationList = B5FCED5516555634001D0718 /* Build configuration list for PBXProject "Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5FCED5016555634001D0718;
+			productRefGroup = B5FCED5C16555634001D0718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FCED5A16555634001D0718 /* Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5FCED5916555634001D0718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCED6A16555634001D0718 /* InfoPlist.strings in Resources */,
+				B5FCED7616555634001D0718 /* MADViewController.xib in Resources */,
+				B5FCED7D16555660001D0718 /* tennisball.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5FCED5716555634001D0718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCED6C16555634001D0718 /* main.m in Sources */,
+				B5FCED7016555634001D0718 /* MADAppDelegate.m in Sources */,
+				B5FCED7316555634001D0718 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5FCED6816555634001D0718 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FCED6916555634001D0718 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5FCED7416555634001D0718 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FCED7516555634001D0718 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5FCED7716555634001D0718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5FCED7816555634001D0718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5FCED7A16555634001D0718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5FCED7B16555634001D0718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5FCED5516555634001D0718 /* Build configuration list for PBXProject "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FCED7716555634001D0718 /* Debug */,
+				B5FCED7816555634001D0718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FCED7916555634001D0718 /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FCED7A16555634001D0718 /* Debug */,
+				B5FCED7B16555634001D0718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5FCED5216555634001D0718 /* Project object */;
+}

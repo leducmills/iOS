@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F483F315F654510055DBDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F483F215F654510055DBDE /* UIKit.framework */; };
+		B5F483F515F654510055DBDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F483F415F654510055DBDE /* Foundation.framework */; };
+		B5F483F715F654510055DBDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F483F615F654510055DBDE /* CoreGraphics.framework */; };
+		B5F483FD15F654510055DBDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5F483FB15F654510055DBDE /* InfoPlist.strings */; };
+		B5F483FF15F654510055DBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F483FE15F654510055DBDE /* main.m */; };
+		B5F4840315F654510055DBDE /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4840215F654510055DBDE /* MADAppDelegate.m */; };
+		B5F4840615F654510055DBDE /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F4840515F654510055DBDE /* MADViewController.m */; };
+		B5F4840915F654510055DBDE /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F4840715F654510055DBDE /* MADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5F483EE15F654510055DBDE /* HelloWorld2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F483F215F654510055DBDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5F483F415F654510055DBDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5F483F615F654510055DBDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5F483FA15F654510055DBDE /* HelloWorld2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld2-Info.plist"; sourceTree = "<group>"; };
+		B5F483FC15F654510055DBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5F483FE15F654510055DBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F4840015F654510055DBDE /* HelloWorld2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld2-Prefix.pch"; sourceTree = "<group>"; };
+		B5F4840115F654510055DBDE /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		B5F4840215F654510055DBDE /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		B5F4840415F654510055DBDE /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		B5F4840515F654510055DBDE /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		B5F4840815F654510055DBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F483EB15F654510055DBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F483F315F654510055DBDE /* UIKit.framework in Frameworks */,
+				B5F483F515F654510055DBDE /* Foundation.framework in Frameworks */,
+				B5F483F715F654510055DBDE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F483E315F654510055DBDE = {
+			isa = PBXGroup;
+			children = (
+				B5F483F815F654510055DBDE /* HelloWorld2 */,
+				B5F483F115F654510055DBDE /* Frameworks */,
+				B5F483EF15F654510055DBDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F483EF15F654510055DBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F483EE15F654510055DBDE /* HelloWorld2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F483F115F654510055DBDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F483F215F654510055DBDE /* UIKit.framework */,
+				B5F483F415F654510055DBDE /* Foundation.framework */,
+				B5F483F615F654510055DBDE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F483F815F654510055DBDE /* HelloWorld2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5F4840115F654510055DBDE /* MADAppDelegate.h */,
+				B5F4840215F654510055DBDE /* MADAppDelegate.m */,
+				B5F4840415F654510055DBDE /* MADViewController.h */,
+				B5F4840515F654510055DBDE /* MADViewController.m */,
+				B5F4840715F654510055DBDE /* MADViewController.xib */,
+				B5F483F915F654510055DBDE /* Supporting Files */,
+			);
+			path = HelloWorld2;
+			sourceTree = "<group>";
+		};
+		B5F483F915F654510055DBDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F483FA15F654510055DBDE /* HelloWorld2-Info.plist */,
+				B5F483FB15F654510055DBDE /* InfoPlist.strings */,
+				B5F483FE15F654510055DBDE /* main.m */,
+				B5F4840015F654510055DBDE /* HelloWorld2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F483ED15F654510055DBDE /* HelloWorld2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F4840C15F654510055DBDE /* Build configuration list for PBXNativeTarget "HelloWorld2" */;
+			buildPhases = (
+				B5F483EA15F654510055DBDE /* Sources */,
+				B5F483EB15F654510055DBDE /* Frameworks */,
+				B5F483EC15F654510055DBDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld2;
+			productName = HelloWorld2;
+			productReference = B5F483EE15F654510055DBDE /* HelloWorld2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F483E515F654510055DBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Leduc-Mills";
+			};
+			buildConfigurationList = B5F483E815F654510055DBDE /* Build configuration list for PBXProject "HelloWorld2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5F483E315F654510055DBDE;
+			productRefGroup = B5F483EF15F654510055DBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F483ED15F654510055DBDE /* HelloWorld2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F483EC15F654510055DBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F483FD15F654510055DBDE /* InfoPlist.strings in Resources */,
+				B5F4840915F654510055DBDE /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F483EA15F654510055DBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F483FF15F654510055DBDE /* main.m in Sources */,
+				B5F4840315F654510055DBDE /* MADAppDelegate.m in Sources */,
+				B5F4840615F654510055DBDE /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5F483FB15F654510055DBDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F483FC15F654510055DBDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5F4840715F654510055DBDE /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F4840815F654510055DBDE /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F4840A15F654510055DBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5F4840B15F654510055DBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F4840D15F654510055DBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld2/HelloWorld2-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld2/HelloWorld2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5F4840E15F654510055DBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld2/HelloWorld2-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld2/HelloWorld2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F483E815F654510055DBDE /* Build configuration list for PBXProject "HelloWorld2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F4840A15F654510055DBDE /* Debug */,
+				B5F4840B15F654510055DBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F4840C15F654510055DBDE /* Build configuration list for PBXNativeTarget "HelloWorld2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F4840D15F654510055DBDE /* Debug */,
+				B5F4840E15F654510055DBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F483E515F654510055DBDE /* Project object */;
+}

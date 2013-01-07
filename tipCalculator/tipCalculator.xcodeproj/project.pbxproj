@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5EA0A6A1608CA260048CF3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EA0A691608CA260048CF3D /* UIKit.framework */; };
+		B5EA0A6C1608CA260048CF3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EA0A6B1608CA260048CF3D /* Foundation.framework */; };
+		B5EA0A6E1608CA260048CF3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EA0A6D1608CA260048CF3D /* CoreGraphics.framework */; };
+		B5EA0A741608CA260048CF3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5EA0A721608CA260048CF3D /* InfoPlist.strings */; };
+		B5EA0A761608CA260048CF3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA0A751608CA260048CF3D /* main.m */; };
+		B5EA0A7A1608CA260048CF3D /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA0A791608CA260048CF3D /* MADAppDelegate.m */; };
+		B5EA0A7D1608CA260048CF3D /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA0A7C1608CA260048CF3D /* MADViewController.m */; };
+		B5EA0A801608CA260048CF3D /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EA0A7E1608CA260048CF3D /* MADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5EA0A651608CA250048CF3D /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EA0A691608CA260048CF3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5EA0A6B1608CA260048CF3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5EA0A6D1608CA260048CF3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5EA0A711608CA260048CF3D /* tipCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipCalculator-Info.plist"; sourceTree = "<group>"; };
+		B5EA0A731608CA260048CF3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5EA0A751608CA260048CF3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5EA0A771608CA260048CF3D /* tipCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		B5EA0A781608CA260048CF3D /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		B5EA0A791608CA260048CF3D /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		B5EA0A7B1608CA260048CF3D /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		B5EA0A7C1608CA260048CF3D /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		B5EA0A7F1608CA260048CF3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EA0A621608CA250048CF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA0A6A1608CA260048CF3D /* UIKit.framework in Frameworks */,
+				B5EA0A6C1608CA260048CF3D /* Foundation.framework in Frameworks */,
+				B5EA0A6E1608CA260048CF3D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5EA0A5A1608CA250048CF3D = {
+			isa = PBXGroup;
+			children = (
+				B5EA0A6F1608CA260048CF3D /* tipCalculator */,
+				B5EA0A681608CA250048CF3D /* Frameworks */,
+				B5EA0A661608CA250048CF3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EA0A661608CA250048CF3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA0A651608CA250048CF3D /* tipCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EA0A681608CA250048CF3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA0A691608CA260048CF3D /* UIKit.framework */,
+				B5EA0A6B1608CA260048CF3D /* Foundation.framework */,
+				B5EA0A6D1608CA260048CF3D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5EA0A6F1608CA260048CF3D /* tipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA0A781608CA260048CF3D /* MADAppDelegate.h */,
+				B5EA0A791608CA260048CF3D /* MADAppDelegate.m */,
+				B5EA0A7B1608CA260048CF3D /* MADViewController.h */,
+				B5EA0A7C1608CA260048CF3D /* MADViewController.m */,
+				B5EA0A7E1608CA260048CF3D /* MADViewController.xib */,
+				B5EA0A701608CA260048CF3D /* Supporting Files */,
+			);
+			path = tipCalculator;
+			sourceTree = "<group>";
+		};
+		B5EA0A701608CA260048CF3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA0A711608CA260048CF3D /* tipCalculator-Info.plist */,
+				B5EA0A721608CA260048CF3D /* InfoPlist.strings */,
+				B5EA0A751608CA260048CF3D /* main.m */,
+				B5EA0A771608CA260048CF3D /* tipCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EA0A641608CA250048CF3D /* tipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EA0A831608CA260048CF3D /* Build configuration list for PBXNativeTarget "tipCalculator" */;
+			buildPhases = (
+				B5EA0A611608CA250048CF3D /* Sources */,
+				B5EA0A621608CA250048CF3D /* Frameworks */,
+				B5EA0A631608CA250048CF3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tipCalculator;
+			productName = tipCalculator;
+			productReference = B5EA0A651608CA250048CF3D /* tipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EA0A5C1608CA250048CF3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Leduc-Mills";
+			};
+			buildConfigurationList = B5EA0A5F1608CA250048CF3D /* Build configuration list for PBXProject "tipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5EA0A5A1608CA250048CF3D;
+			productRefGroup = B5EA0A661608CA250048CF3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EA0A641608CA250048CF3D /* tipCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EA0A631608CA250048CF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA0A741608CA260048CF3D /* InfoPlist.strings in Resources */,
+				B5EA0A801608CA260048CF3D /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EA0A611608CA250048CF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA0A761608CA260048CF3D /* main.m in Sources */,
+				B5EA0A7A1608CA260048CF3D /* MADAppDelegate.m in Sources */,
+				B5EA0A7D1608CA260048CF3D /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5EA0A721608CA260048CF3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EA0A731608CA260048CF3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5EA0A7E1608CA260048CF3D /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EA0A7F1608CA260048CF3D /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5EA0A811608CA260048CF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5EA0A821608CA260048CF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5EA0A841608CA260048CF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipCalculator/tipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "tipCalculator/tipCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5EA0A851608CA260048CF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipCalculator/tipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "tipCalculator/tipCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EA0A5F1608CA250048CF3D /* Build configuration list for PBXProject "tipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EA0A811608CA260048CF3D /* Debug */,
+				B5EA0A821608CA260048CF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EA0A831608CA260048CF3D /* Build configuration list for PBXNativeTarget "tipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EA0A841608CA260048CF3D /* Debug */,
+				B5EA0A851608CA260048CF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EA0A5C1608CA250048CF3D /* Project object */;
+}
